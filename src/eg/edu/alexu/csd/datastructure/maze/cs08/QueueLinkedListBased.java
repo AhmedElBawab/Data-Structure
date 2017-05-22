@@ -1,8 +1,6 @@
 package eg.edu.alexu.csd.datastructure.maze.cs08;
 
-
-
-public class QueueLinkedListBased  {
+public class QueueLinkedListBased {
 
 	SingleListNode head = null;
 	SingleListNode tail = null;
@@ -27,7 +25,6 @@ public class QueueLinkedListBased  {
 
 	}
 
-	
 	public Object dequeue() {
 		// TODO Auto-generated method stub
 		if (counter == 0) {
@@ -39,7 +36,6 @@ public class QueueLinkedListBased  {
 		return temp;
 	}
 
-	
 	public boolean isEmpty() {
 		// TODO Auto-generated method stub
 		if (this.counter == 0) {
@@ -48,7 +44,6 @@ public class QueueLinkedListBased  {
 		return false;
 	}
 
-	
 	public int size() {
 		// TODO Auto-generated method stub
 		return this.counter;

@@ -1,8 +1,6 @@
 package eg.edu.alexu.csd.datastructure.maze.cs08;
 
-
-
-public class Stack  {
+public class Stack {
 
 	ListNode head = null;
 	int counter = 0;
@@ -18,7 +16,7 @@ public class Stack  {
 	 * @see eg.edu.alexu.csd.datastructure.stack.IStack#add(int,
 	 * java.lang.Object)
 	 */
-	
+
 	public void add(int index, Object element) {
 		// TODO Auto-generated method stub
 		if (index < 0 || index > size() || element == null) {
@@ -68,7 +66,7 @@ public class Stack  {
 	 * 
 	 * @see eg.edu.alexu.csd.datastructure.stack.IStack#peek()
 	 */
-	
+
 	public Object peek() {
 		// TODO Auto-generated method stub
 		if (this.isEmpty()) {
@@ -84,7 +82,7 @@ public class Stack  {
 	 * 
 	 * @see eg.edu.alexu.csd.datastructure.stack.IStack#push(java.lang.Object)
 	 */
-	
+
 	public void push(Object element) {
 		// TODO Auto-generated method stub
 		if (element == null) {
@@ -104,7 +102,7 @@ public class Stack  {
 	 * 
 	 * @see eg.edu.alexu.csd.datastructure.stack.IStack#isEmpty()
 	 */
-	
+
 	public boolean isEmpty() {
 		// TODO Auto-generated method stub
 		if (this.counter == 0) {
@@ -120,7 +118,7 @@ public class Stack  {
 	 * 
 	 * @see eg.edu.alexu.csd.datastructure.stack.IStack#size()
 	 */
-	
+
 	public int size() {
 		// TODO Auto-generated method stub
 		if (this.isEmpty()) {
